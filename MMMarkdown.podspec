@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MMMarkdown"
-  s.version      = "0.5.3"
+  s.version      = "0.5.4"
   s.summary      = "An Objective-C framework for converting Markdown to HTML."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ycomplex/MMMarkdown", :tag => "0.5.3" }
+  s.source       = { :git => "https://github.com/ycomplex/MMMarkdown", :tag => "0.5.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
