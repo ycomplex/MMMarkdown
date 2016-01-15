@@ -55,7 +55,6 @@ Pod::Spec.new do |s|
 
   s.author             = "akshayrangnekar"
   # Or just: s.author    = "akshayrangnekar"
-  # s.authors            = { "akshayrangnekar" => "akshay@annkh.com" }
   # s.social_media_url   = "http://twitter.com/akshayr"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Source", "Source/**/*.{h,m}"
+  s.exclude_files = "Source/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Source/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
